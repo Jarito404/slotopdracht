@@ -1,3 +1,3 @@
 # slotopdracht
 Guten morgen </br>
-Gluten morgen un heute leute!
+Gluten morgen und heute leute!
