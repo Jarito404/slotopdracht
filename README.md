@@ -1,4 +1,3 @@
 # slotopdracht
 Guten morgen </br>
-Gluten morgen un heute leute!
-googoogaagaa
+van 'addSubjects.html' moet de css nog worden gedaan.
