@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    height: 100%;
+}
+
+body {
+    background-image: url("images/Achtergrond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #F2EFBD;
+    position: relative;
+    bottom: 45px;
+    width: 50%;
+    left: 25%;
+}
+
+h2 {
+    color: #F2EFBD;
+    height: 50px;
+}
+
+.header {
+    background-color: #73241D;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+}
+
+.small {
+    height: 30px;
+    border-bottom-color: #73241D;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+.center {
+    text-align: center;
+}
+.left {
+    position: relative;
+    left: 5px;
+}
+
+#Menu{
+    width: 100px;
+}
+
+#MenuButton {
+    font-size: 50px;
+    position: relative;
+    left: 5%;
+}
+
+#Main {
+    position: relative;
+    width: 75%;
+    height: 900px;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #73241D;
+    background-color: #77a6a1;
+    left: 12.5%;
+    top: 10px;
+}
+
+#caracter {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 1%;
+    top: 5px;
+    border-color: #73241D;
+    border-width: 5px; 
+    border-style: solid;
+    background-image: url(images/CaracterBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#info {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 34%;
+    bottom: 405px;
+    border-color: #73241D;
+    border-width: 5px; 
+    border-style: solid;
+}
+
+#opdrachten {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 67%;
+    bottom: 815px;
+    border-color: #73241D;
+    border-width: 5px; 
+    border-style: solid;
+}
+
+#shop {
+    width: 96%;
+    height: 400px;
+    position: relative;
+    left: 1%;
+    bottom: 800px;
+    border-color: #73241D;
+    border-width: 5px; 
+    border-style: solid;
+}
