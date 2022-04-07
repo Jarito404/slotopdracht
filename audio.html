@@ -1,0 +1,29 @@
+ <style>
+     .audio-btn:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: yellow;
+     }
+ </style>       
+        
+        <input type="button" class="audio-btn" value="pause" onclick="toggleMusic()" />
+        <input type="button" class="audio-btn"value="skip" onclick="skipMusic()" />
+        <input type="button" class="audio-btn"value="reset" onclick="resetMusic()" />
+
+        <div id="audio">
+            <audio src="" controls id="audioPlayer">
+            Sorry, your browser doesn't support html5!
+            </audio>
+
+            <ul id="playlist">
+                <li class="current-song"><a href="audio/moon_cover.mp3">Fly me to the moon (cover)</a></li>
+                <li><a href="https://archive.org/download/ra2007-07-21/ra2007-07-21d1t05_64kb.mp3">Severe Tire Damage</a></li>
+                <li><a href="https://archive.org/download/samples2003-11-21.flac16/samples2003-11-21d2t04.mp3">Broken Reality</a></li>
+            </ul>
+        
+            <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+            <script src="audioPlayer.js"></script>
+            <script>
+                //audio afspelen
+                audioPlayer();
+            </script>
